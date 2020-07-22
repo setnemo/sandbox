@@ -1,0 +1,18 @@
+{
+    "name": "omentes/sandbox",
+    "description": "my sandbox for test php features",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Pakhomov",
+            "email": "setnemo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Design\\": "design-patterns/"
+        }
+    }
+}
