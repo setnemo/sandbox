@@ -16,9 +16,14 @@ class Singleton
         // do nothing
     }
 
+    public function __sleep()
+    {
+        throw new \Exception("Cannot serialize singleton");
+    }
+
     public function __wakeup()
     {
-        throw new \Exception("Cannot un-serialize singleton");
+        throw new \Exception("Cannot deserialize singleton");
     }
 
     public static function getInstance()
