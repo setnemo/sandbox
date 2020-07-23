@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-      "ext-readline": "*"
+      "ext-readline": "*",
+      "ext-sqlite3": "*"
     },
     "autoload": {
         "psr-4": {
