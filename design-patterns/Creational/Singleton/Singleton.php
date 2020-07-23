@@ -4,7 +4,7 @@ namespace Design\Creational\Singleton;
 
 class Singleton
 {
-    private static $instances = [];
+    protected static $instances = [];
 
     protected function __construct()
     {

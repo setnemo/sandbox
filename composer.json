@@ -11,7 +11,9 @@
     ],
     "require": {
       "ext-readline": "*",
-      "ext-sqlite3": "*"
+      "ext-sqlite3": "*",
+      "ext-openssl": "*",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
