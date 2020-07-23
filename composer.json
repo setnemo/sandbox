@@ -9,7 +9,9 @@
             "email": "setnemo@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+      "ext-readline": "*"
+    },
     "autoload": {
         "psr-4": {
             "Design\\": "design-patterns/"
